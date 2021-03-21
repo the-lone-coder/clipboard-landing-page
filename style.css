@@ -19,82 +19,161 @@ body {
     text-align: center;
 }
 
+h1, h2, h3 {
+    color: var(--dark-grayish-blue);
+}
+
 header {
     background-image: url('./images/bg-header-desktop.png');
-    font-family: 'Bai Jamjuree', sans-serif;
-    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
     text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 img {
     max-width: 100%;
 }
 
-p {
-    color: var(--dark-grayish-blue);
-    line-height: 1.5;
+#header-logo {
+    width: 100px;
+    padding-bottom: 40px;
 }
 
-.header-container, 
-.middle-container-one, 
-.middle-container-two, 
-.bottom-container-one, 
-.bottom-container-two, 
-.bottom-container-three, 
-.footer-container {
-    padding: 0 20px;
-    margin: 30px auto;
-    max-width: 100%;
-    width: 1200px;
+#header-headline {
+    padding-bottom: 5px;
 }
 
-.header-container,
-.middle-container-two, 
-.bottom-container-three {
-    width: 700px;
-}
-
-section {
-    padding: 30px 0;
-}
-
-.image-text-container, 
-.bottom-container-two, 
-.footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.bottom-container-three {
-    margin: 100px auto;
+.button-container {
+    padding-top: 25px;
 }
 
 .btn-green {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 35px;
     border: none;
     border-radius: 50px;
-    color: #fff;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 15px 35px;
-    margin: 15px 5px;
+    margin: 5px;
+    cursor: pointer;
     background-color: var(--strong-cyan);
     box-shadow: 0 4px hsl(171, 68%, 36%);
-}
+} 
 
 .btn-blue {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 35px;
     border: none;
     border-radius: 50px;
-    color: #fff;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 15px 35px;
-    margin: 15px 5px;
+    margin: 5px;
+    cursor: pointer;
     background-color: var(--light-blue);
     box-shadow: 0 4px hsl(233, 71%, 61%);
+}
+
+.container-a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.container-a-one {
+    padding: 0 5px;
+    margin-bottom: 80px;
+}
+
+.header-headline-h2 {
+    padding-bottom: 6px;
+}
+
+.header-text-h2 {
+    font-size: 14px;
+}
+
+.container-a-two {
+    display: flex;
+    flex-direction: row;
+    margin-left: -375px;
+    margin-bottom: 5px;
+}
+
+.image-container-computer img {
+    width: 600px;
+}
+
+.text-container-computer {
+    text-align: left;
+    width: 35vw;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+.text-container-computer p {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.container-b {
+    margin-bottom: 100px;
+}
+
+.container-b-two img {
+    width: 700px;
+}
+
+.container-c-one {
+    padding: 0 5px;
+    margin-bottom: 60px;
+}
+
+.container-c-two {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 100px;
+}
+
+.image-text-container {
+    width: 45vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.image-text-container p {
+    font-size: 12px;
+}
+
+.container-d {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 130px;
+}
+
+.google-image, 
+.ibm-image, 
+.microsoft-image, 
+.hp-image {
+    margin-right: 60px;
+}
+
+.container-e {
+    width: 45w;
+    margin-bottom: 140px;
 }
 
 footer {
@@ -102,7 +181,17 @@ footer {
 }
 
 .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    margin-top: 30px;
     margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 1200px;
 }
 
 .footer-container img {
@@ -119,6 +208,9 @@ ul {
 .footer-container ul a {
     color: var(--dark-grayish-blue);
     text-decoration: none;
+}
+.links-container {
+    padding-left: 50px;
 }
 
 .footer-container .links-container {
