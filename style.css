@@ -19,8 +19,16 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 35px;
+}
+
 h1, h2, h3 {
     color: var(--dark-grayish-blue);
+}
+
+p {
+    line-height: 1.5;
 }
 
 header {
