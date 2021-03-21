@@ -134,6 +134,10 @@ img {
     margin-bottom: 100px;
 }
 
+.container-b-one {
+    margin-bottom: 80px;
+}
+
 .container-b-two img {
     width: 700px;
 }
@@ -180,7 +184,7 @@ img {
 }
 
 .container-e {
-    width: 45w;
+    max-width: 100%;
     margin-bottom: 140px;
 }
 
@@ -241,8 +245,106 @@ ul {
 
 @media (max-width: 765px) {
 
-    .footer-container .links-container {
+    #header-headline, #header-text {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 55%;
+        margin-left: 6.8rem;
+    }
+
+    .text-container-computer {
+        text-align: center;
+        width: 60vw;
+        margin-top: 2rem;
+        margin-left: -7.5rem;
+    }
+
+    .container-a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-a-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .container-b-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -5.5rem;
+    }
+
+    .container-c-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-text-container {
+        padding-bottom: 3rem;
+    }
+
+    .image-text-container p {
+        max-width: 100%;
+        width: 115%;
+    }
+
+    .container-d {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.5rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: -3rem;
+    }
+
+    .google-image, 
+    .ibm-image, 
+    .microsoft-image, 
+    .hp-image {
+        margin-bottom: 4rem;
+    }
+
+    .vector-image {
+        margin-left: -5rem;
+    }
+
+    .header-headline-h2, .header-text-h2 {
+        width: 80%;
+        padding-left: 6rem;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding-left: 4rem;
+    }
+
+    .btn-green {
+        margin-bottom: 1rem;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        margin-left: -2.5rem;
     }
 
     .footer-container .links-container li {
